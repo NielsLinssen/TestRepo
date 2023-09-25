@@ -1,0 +1,2 @@
+C:\Users\Nielslinssen\source\repos\TestWordAddIn\TestWordAddIn\obj\Debug\TestWordAddIn.csproj.AssemblyReference.cache
+C:\Users\Nielslinssen\source\repos\TestWordAddIn\TestWordAddIn\obj\Debug\TestWordAddIn.csproj.CoreCompileInputs.cache

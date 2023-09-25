@@ -1,0 +1,7 @@
+False
+c93ae550-2d40-4ca7-9fa5-378363eddbae620432c6-c836-4fb9-9fa3-8e1bc5fb0c35
+{77be057d-eee2-4faa-877c-b0a5937516d7}{8e674c5b-bc0f-4ed2-984f-acc25a366358}
+{8ab697b5-4104-4be7-8871-b723ecae7266}
+1.0.0.0
+TestWordAddIn
+_layouts/15/
