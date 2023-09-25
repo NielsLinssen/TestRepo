@@ -9,9 +9,8 @@
   <!-- Begin Basic Settings: Add-in metadata, used for all versions of Office unless override provided. -->
 
   <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
-  <Id>7178B707-B5A4-4F2D-8239-1A55E6B77E23</Id>
-
-  <!--Version. Updates from the store only get triggered if there is a version change. -->
+  <Id>75FB190B-BD20-411B-91EA-6F5F3208C237</Id>
+	<!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
   <ProviderName>Any2InfoTest</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
@@ -21,11 +20,11 @@
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <!-- <IconUrl DefaultValue="~remoteAppUrl/Images/Button32x32.png" /> -->
 
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://learn.microsoft.com/office/dev/add-ins/overview/office-add-in-code-samples"/>
+  <IconUrl DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Images/Button16x16.png"/>
+  <HighResolutionIconUrl DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Images/Button32x32.png"/>
+  <SupportUrl DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb"/>
   <AppDomains>
-	  <AppDomain>https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world</AppDomain>
+	  <AppDomain>https://nielslinssen.github.io/TestRepo/TestWordAddInWeb</AppDomain>
   </AppDomains>
 	<!-- <SupportUrl DefaultValue="http://www.contoso.com" /> -->
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -42,7 +41,7 @@
   </Hosts>
   <DefaultSettings>
 	  <!--<SourceLocation DefaultValue="~remoteAppUrl/Home.html" />-->
-	  <SourceLocation DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/taskpane.html"/>
+	  <SourceLocation DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Home.html"/>
   </DefaultSettings>
   <!-- End TaskPane Mode integration.  -->
 
@@ -122,19 +121,19 @@
     <!-- You can use resources across hosts and form factors. -->
     <Resources>
       <bt:Images>
-        <bt:Image id="Contoso.tpicon_16x16" DefaultValue="~remoteAppUrl/Images/Button16x16.png" />
-        <bt:Image id="Contoso.tpicon_32x32" DefaultValue="~remoteAppUrl/Images/Button32x32.png" />
-        <bt:Image id="Contoso.tpicon_80x80" DefaultValue="~remoteAppUrl/Images/Button80x80.png" />
+        <bt:Image id="Contoso.tpicon_16x16" DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Images/Button16x16.png" />
+        <bt:Image id="Contoso.tpicon_32x32" DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Images/Button32x32.png" />
+        <bt:Image id="Contoso.tpicon_80x80" DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Images/Button80x80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="~remoteAppUrl/Functions/FunctionFile.html" />
-        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="~remoteAppUrl/Home.html" />
+        <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Functions/FunctionFile.html" />
+        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://nielslinssen.github.io/TestRepo/TestWordAddInWeb/Home.html" />
         <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
         <bt:String id="Contoso.TaskpaneButton.Label" DefaultValue="Show Taskpane" />
-        <bt:String id="Contoso.Group1Label" DefaultValue="Commands Group" />
+        <bt:String id="Contoso.Group1Label" DefaultValue="Commands Groupie Biggo" />
         <bt:String id="Contoso.GetStarted.Title" DefaultValue="Get started with your sample add-in!" />
       </bt:ShortStrings>
       <!-- LongStrings max characters==250. -->
